@@ -35,6 +35,22 @@ namespace SwitchStatements
             {
                 Console.WriteLine("How warm is it then?");
             }
+
+            // Switch using strings
+            string username = "Adam";
+
+            switch (username)
+            {
+                case "Adam":
+                    Console.WriteLine("Username is Adam.");
+                    break;
+                case "Paul":
+                    Console.WriteLine("Username is Paul.");
+                    break;
+                default:
+                    Console.WriteLine("Unknown username.");
+                    break;
+            }
         }
     }
 }
